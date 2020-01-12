@@ -20,8 +20,8 @@ pip3 install --user kefrey
 
 ```bash
 kefrey-install
-systemctl enable kefrey
-systemctl start kefrey
+systemctl enable --user kefrey
+systemctl start --user kefrey
 ```
 
 Now, a file `~/.kefrey.json` will contain keypress distribution info,
