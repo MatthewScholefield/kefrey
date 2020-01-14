@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='kefrey',
-    version='0.1.0',
+    version='0.1.1',
     description='A tool to track system-wide keypress frequencies',
     url='https://github.com/matthewscholefield/kefrey',
     author='Matthew D. Scholefield',
