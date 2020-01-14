@@ -52,8 +52,8 @@ def main():
 
     print('Service successfully installed at {out_file}.'.format(out_file=out_file))
     print()
-    print('Enable service with "sudo systemctl enable kefrey"')
-    print('Start service with "sudo systemctl start kefrey"')
+    print('Enable service with "systemctl enable --user kefrey"')
+    print('Start service with "systemctl start --user kefrey"')
     print()
     print('Service will log to {}'.format(args.json_file_location))
 
